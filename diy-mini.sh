@@ -19,14 +19,8 @@ sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 # 移除要替换的包
 # rm -rf feeds/packages/net/mosdns
 rm -rf feeds/packages/net/msd_lite
-rm -rf feeds/packages/net/samba4
-rm -rf feeds/packages/multimedia/UnblockNeteaseMusic-Go
-rm -rf package/lean/ddns-scripts_dnspod
-rm -rf package/lean/ddns-scripts_aliyun
 # rm -rf feeds/packages/net/smartdns
 rm -rf feeds/luci/themes/luci-theme-argon
-rm -rf feeds/luci/applications/luci-app-nlbwmon
-rm -rf feeds/luci/applications/luci-app-ddns
 # rm -rf feeds/luci/applications/luci-app-dockerman
 # rm -rf feeds/luci/applications/luci-app-mosdns
 # rm -rf feeds/luci/applications/luci-app-netdata

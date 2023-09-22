@@ -24,11 +24,13 @@ rm -rf feeds/luci/themes/luci-theme-argon
 # rm -rf feeds/luci/applications/luci-app-dockerman
 rm -rf feeds/luci/applications/luci-app-mosdns
 rm -rf feeds/luci/applications/luci-app-netdata
-
+rm -rf feeds/luci/applications/luci-app-vlmcsd
 # 添加额外插件
 # git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhomegit
 git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
-git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
+git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
+git clone https://github.com/flytosky-f/luci-app-vlmcsd.git package/luci-app-vlmcsd
+git clone https://github.com/flytosky-f/openwrt-vlmcsd.git package/openwrt-vlmcsd
 # svn export https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman package/luci-app-dockerman
 # svn export https://github.com/syb999/openwrt-19.07.1/trunk/package/network/services/msd_lite package/msd_lite
 

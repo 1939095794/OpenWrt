@@ -27,8 +27,6 @@ rm -rf feeds/luci/applications/luci-app-netdata
 
 # 添加额外插件
 # git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhomegit
-git clone https://github.com/flytosky-f/luci-app-vlmcsd.git package/luci-app-vlmcsd
-git clone https://github.com/flytosky-f/openwrt-vlmcsd.git package/openwrt-vlmcsd
 git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
 git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
 # svn export https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman package/luci-app-dockerman

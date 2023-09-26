@@ -25,6 +25,7 @@ rm -rf feeds/luci/themes/luci-theme-argon
 # rm -rf feeds/luci/applications/luci-app-mosdns
 rm -rf feeds/luci/applications/luci-app-netdata
 # rm -rf feeds/luci/applications/luci-app-vlmcsd
+
 # 添加额外插件
 # git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhomegit
 git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
@@ -37,8 +38,8 @@ git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 # git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 # git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
 # git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
-# svn export https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
-# svn export https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 package/luci-app-passwall2
+svn export https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
+svn export https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 package/luci-app-passwall2
 svn export https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 
 # Themes
@@ -75,7 +76,7 @@ cp -f $GITHUB_WORKSPACE/images/bg1.jpg package/luci-theme-argon/htdocs/luci-stat
 # svn export https://github.com/sbwml/luci-app-alist/trunk/alist package/alist
 
 # iStore
-#svn export https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
+svn export https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
 svn export https://github.com/linkease/istore/trunk/luci package/luci-app-store
 
 # 在线用户

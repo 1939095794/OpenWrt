@@ -39,7 +39,7 @@ git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr package/luci-app-
 git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
 svn export https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
-svn export https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 package/luci-app-passwall2
+# svn export https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 package/luci-app-passwall2
 svn export https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 
 # Themes
@@ -76,7 +76,7 @@ cp -f $GITHUB_WORKSPACE/images/bg1.jpg package/luci-theme-argon/htdocs/luci-stat
 # svn export https://github.com/sbwml/luci-app-alist/trunk/alist package/alist
 
 # iStore
-svn export https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
+# svn export https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
 svn export https://github.com/linkease/istore/trunk/luci package/luci-app-store
 
 # 在线用户
